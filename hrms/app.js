@@ -33,12 +33,12 @@ Ext.application({
       /** HRMS Module Stores**/  
       'hrms.UserStore', 'hrms.RoleStore'
     ],
-    /*
+    
     launch: function() {
       console.log('## Launching App...##');
       Ext.create('Taas.view.LoginPanel',
         { renderTo : Ext.getBody()}
       );  
-    },*/
-    autoCreateViewport: true
+    }
+    //,autoCreateViewport: true
 });
